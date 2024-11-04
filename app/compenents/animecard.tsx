@@ -11,7 +11,7 @@ const variants = {
 const AnimeCard = ({ anime, index }: Prop) => {
   return (
     <MotionDiv variants={variants} initial='hidden' animate='visible' transition={{
-        delay: index * 0.25 ,
+        delay: index * 0.26 ,
         ease: 'easeInOut',
         duration: 0.5,
     }} className="max-w-sm rounded relative w-full">
