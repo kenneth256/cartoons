@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -7,7 +8,7 @@ const Hero = () => {
         <p className='font-extrabold'>Welcome world class animes</p>
       </div>
       <div className='h-[40vh] my-auto rounded-md'>
-        <img 
+        <Image
           src='./image.jpeg' 
           alt='alt-image' 
           className='w-full h-full object-contain'
